@@ -32,7 +32,9 @@ student::student(int x,int y,int z)
 }
 int main()
 {
-    student obj1(1,20,30);
+    student obj1(1,20,30), obj2(2,20,40);
     obj1.get();
     obj1.add();
+    obj2.get();
+    obj2.add();
 }
