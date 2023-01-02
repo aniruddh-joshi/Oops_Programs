@@ -23,8 +23,11 @@ void add(student po)
     cout<<"Total Marks is "<<po.m1+po.m2<<endl;
 }
 int main(){
-    student obj1;
+    student obj1,obj2;
     obj1.set(1,90,90);
     obj1.get();
+obj2.set(2,50,40);
+obj2.get();
     add(obj1);
+add(obj2);
 }
