@@ -9,6 +9,7 @@ inline int mul(int x,int y)
 int main()
 {
     int a,b;
+    cout<<"INLINE FUNCTION";
     cout<<"Enter two numbers"<<endl;
     cin>>a>>b;
     cout<<"The product is "<<mul(a,b)<<endl;
