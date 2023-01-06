@@ -11,6 +11,6 @@ int main()
     int a,b;
     cout<<"INLINE FUNCTION";
     cout<<"Enter two numbers"<<endl;
-    cin>>a>>b;
+    cin>>a>>b>>endl;
     cout<<"The product is "<<mul(a,b)<<endl;
 }
