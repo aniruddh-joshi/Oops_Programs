@@ -10,7 +10,7 @@ int main()
     {
         for(j=0;j<=i;j++)
         {
-            cout<<count;
+            cout<<count<<"\t";
             count++;
         }
         cout<<endl;
